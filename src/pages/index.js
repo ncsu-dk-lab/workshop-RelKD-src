@@ -76,7 +76,7 @@ const IndexPage = () => {
 
         <div id="cfp" style={{"background":"#f5f5f5"}} className="pt-10">
           <div className="text-black text-4xl font-semibold text-center">
-            The First Workshop on Resource-Efficient Learning for Knowledge Discovery
+          International Workshop on Resource-Efficient Learning for Knowledge Discovery
           </div>
           <div className="text-black text-center mt-2">
             Colocated with the <a href="https://kdd.org/kdd2023/" className="underline">29TH ACM SIGKDD CONFERENCE ON KNOWLEDGE DISCOVERY AND DATA MINING</a>
@@ -104,14 +104,14 @@ const IndexPage = () => {
               <div className="mt-5 leading-8">We are looking for reviewers! If interested, please fill out this <a className="text-blue-600" href="https://docs.google.com/forms/d/1KaQCnRqRpTo4UXkSCLxNVAovrr0cnNFW8MutD482h9c/edit">form</a>. We will be selecting multiple Top Reviewer Awards.</div>  */}
               
               <div className="text-4xl mt-8">Call for Papers</div>
-              <div className="mt-5 leading-8">Modern machine learning techniques, especially deep neural net- works, have demonstrated excellent performance for various knowl- edge discovery and data mining applications. However, the devel- opment of many of these techniques still encounters resource con- straint challenges in many scenarios, such as limited labeled data (data-level), small model size requirements in real-world computing platforms (model-level), and efficient mapping of the computations to heterogeneous target hardware (system-level). Addressing all of these metrics is critical for the effective and efficient usage of the developed models in a wide variety of real systems, such as large-scale social network analysis, large-scale recommendation systems, and real-time anomaly detection. Therefore, it is desir- able to develop efficient learning techniques to tackle challenges of resource limitations from data, model/algorithm, or (and) sys- tem/hardware perspectives. The proposed international workshop on "Resource-Efficient Learning for Knowledge Discovery (RelKD 2023)" will provide a great venue for academic researchers and industrial practitioners to share challenges, solutions, and future opportunities of resource-efficient learning.
+              <div className="mt-5 leading-8">Modern machine learning techniques, especially deep neural networks, have demonstrated excellent performance for various knowledge discovery and data mining applications. However, the development of many of these techniques still encounters resource constraint challenges in many scenarios, such as limited labeled data (data-level), small model size requirements in real-world computing platforms (model-level), and efficient mapping of the computations to heterogeneous target hardware (system-level). Addressing all of these metrics is critical for the effective and efficient usage of the developed models in a wide variety of real systems, such as large-scale social network analysis, large-scale recommendation systems, and real-time anomaly detection. Therefore, it is desirable to develop efficient learning techniques to tackle challenges of resource limitations from data, model/algorithm, or (and) system/hardware perspectives. The proposed international workshop on "Resource-Efficient Learning for Knowledge Discovery (RelKD 2023)" will provide a great venue for academic researchers and industrial practitioners to share challenges, solutions, and future opportunities of resource-efficient learning.
               </div>
-              <div className="mt-5 leading-8">The goal of this workshop is to create a venue to tackle the chal- lenges that arise when modern machine learning techniques (e.g., deep neural networks) encounter resource limitations (e.g., scarce labeled data, constrained computing devices, low power/energy budget). The workshop shall focus on machine learning techniques used for knowledge discovery and data science applications, with a focus on efficient learning from three angles: data, algorithm/model, and system/hardware. The topics of interest will include:</div>
+              <div className="mt-5 leading-8">The goal of this workshop is to create a venue to tackle the challenges that arise when modern machine learning techniques (e.g., deep neural networks) encounter resource limitations (e.g., scarce labeled data, constrained computing devices, low power/energy budget). The workshop shall focus on machine learning techniques used for knowledge discovery and data science applications, with a focus on efficient learning from three angles: data, algorithm/model, and system/hardware. The topics of interest will include:</div>
               <div className="mt-5">
                 <ul className="list-disc pl-5">
                   <li className="py-1"><span className="font-bold">Data-efficient learning:</span> Self-supervised/unsupervised learning, semi/weakly-supervised learning, few-shot learning, and their applications to various data modalities (e.g., graph, user behavior, text, web, image, time series) and data science problems (e.g., social media, healthcare, recommendation, finance, multimedia)</li>
-                  <li className="py-1"><span className="font-bold">Algorithm/model-efficient learning:</span> neural network pruning & quantization & acceleration, sparse learning, neural network compression, knowledge distillation, neural architecture search, and their applications on various data science problems.</li>
-                  <li className="py-1"><span className="font-bold">System/hardward-efficientlearning:</span> Neuralnetwork-hardware co-design, real-time and energy-efficient learning system design, hardware accelerators for machine learning, and their applica- tions on various data science problems.</li>
+                  <li className="py-1"><span className="font-bold">Algorithm/model-efficient learning:</span> neural network pruning, quantization, acceleration, sparse learning, neural network compression, knowledge distillation, neural architecture search, and their applications on various data science problems.</li>
+                  <li className="py-1"><span className="font-bold">System/hardward-efficient learning:</span> Neuralnetwork-hardware co-design, real-time and energy-efficient learning system design, hardware accelerators for machine learning, and their applica- tions on various data science problems.</li>
                 </ul>
               </div>
               <div className="mt-5 leading-8">
@@ -187,7 +187,9 @@ const IndexPage = () => {
               <div className="flex border-b-2 mt-3 pb-3">
                 <div className="w-100">09:00am-09:30am</div>
                 <div className="flex-1 text-center">
-                  <div>Invited talk 1: <a className="text-blue-600" href="/">Jiawei Han</a></div>
+                  <div>Invited talk 1: 
+                    {/* <a className="text-blue-600" href="/">Jiawei Han</a> */}
+                  </div>
                   <div className="mt-5 text-gray-600">TBD</div>
                 </div>
                 <div className="w-100">Livestream</div>
@@ -195,7 +197,9 @@ const IndexPage = () => {
               <div className="flex border-b-2 mt-3 pb-3">
                 <div className="w-100">09:30am-10:00am</div>
                 <div className="flex-1 text-center">
-                  <div>Invited talk 2: <a className="text-blue-600" href="/">Jie Tang</a></div>
+                  <div>Invited talk 2: 
+                    {/* <a className="text-blue-600" href="/">Jie Tang</a> */}
+                  </div>
                   <div className="mt-5 text-gray-600">TBD</div>
                 </div>
                 <div className="w-100">Livestream</div>
@@ -213,7 +217,9 @@ const IndexPage = () => {
               <div className="flex border-b-2 mt-3 pb-3">
                 <div className="w-100">11:00am-11:30am</div>
                 <div className="flex-1 text-center">
-                  <div>Invited talk 3: <a className="text-blue-600" href="/">Farinaz Koushanfar</a></div>
+                  <div>Invited talk 3: 
+                    {/* <a className="text-blue-600" href="/">Farinaz Koushanfar</a> */}
+                  </div>
                   <div className="mt-5 text-gray-600">TBD</div> 
                 </div> 
                 <div className="w-100">Livestream</div>
@@ -235,6 +241,8 @@ const IndexPage = () => {
         <div id="speakers" style={{"background":"#f5f5f5"}}>
           <div className="max-w-screen-md max-w-screen-lg mx-auto px-2 py-10">
             <div className="text-4xl">Keynote Speakers</div>
+            <div className="text-3xl text-center my-40">To Be Confirmed</div>
+            <div className="hidden">
               <div className="w-full mt-10">
                 <div className="w-full md:h-96 md:flex">
                   <div className="md:flex-1">
@@ -272,7 +280,7 @@ const IndexPage = () => {
                   <div className="md:flex-1">
                     <img className="w-48 h-96 object-cover mx-auto md:ml-0 object-left" 
                       style={{"width": "75%"}} 
-                      src="https://lh4.googleusercontent.com/ODOG6dh77n6ti0S5TY3LIUc1IMZqmFkAeNnP3XNpZ-hGozIpMIXm91OsHlftf8BxsXiwLQ=w16383"/>
+                      src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/Farinaz-Koushanfar.png?raw=true"/>
                   </div>
                   <div className="md:flex-1 md:text-left pt-10 text-center mb-20 md:mb-0">
                     <div className="text-3xl">Farinaz Koushanfar</div>
@@ -283,15 +291,17 @@ const IndexPage = () => {
                   </div> 
                 </div>
               </div>
+            </div>
           </div>
         </div>
 
         <div id="organizers" className="max-w-screen-md max-w-screen-lg mx-auto px-2 py-10 text-xl">
           <div className="text-4xl">Organizing Chairs</div>
           <div className="mt-10">
-            <div className="flex text-center mt-10 flex-wrap md:flex-no-wrap">
+            
+            <div className="md:flex text-center mt-10 flex-wrap md:flex-no-wrap">
               <div className="mt-5 md:flex-1 md:mt-0">
-                <div className="h-48 overflow-hidden">
+                <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://chuxuzhang.github.io/CXZ.jpeg" />
                 </div>
                 <div className="mt-3"><a className="text-blue-600" href="https://chuxuzhang.github.io/">Chuxu Zhang</a></div>
@@ -299,82 +309,84 @@ const IndexPage = () => {
                 <div>Brandeis University</div>
               </div>
               <div className="mt-5 md:flex-1 md:mt-0">
-                <div className="h-48 overflow-hidden">
+                <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://github.com/mexiQQ/trust-ai-code/blob/main/src/images/dongkuan.jpg?raw=true" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="http://personal.psu.edu/dux19/">Dongkuan (DK) Xu</a></div>
+                <div className="mt-3"><a className="text-blue-600" href="https://dongkuanx27.github.io/">Dongkuan (DK) Xu</a></div>
                 <div>Assistant Professor</div>
                 <div>North Carolina State University</div>
               </div>
               <div className="mt-5 md:flex-1 md:mt-0">
-                <div className="h-48 overflow-hidden">
-                  <img className="w-1/2 m-auto" src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=Poczb1oAAAAJ&citpid=11" />
+                <div className="h-40 overflow-hidden">
+                  <img className="w-1/2 m-auto" src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/Mojan.jpeg?raw=true" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="https://scholar.google.com/citations?user=Poczb1oAAAAJ&hl=en">Mojan Javaheripi</a></div>
+                <div className="mt-3"><a className="text-blue-600" href="https://sites.google.com/view/mojan-javaheripi/home">Mojan Javaheripi</a></div>
                 <div>Senior Researcher</div>
                 <div>Microsoft Research</div>
               </div>
             </div>
 
-            <div className="flex text-center mt-10 flex-wrap md:flex-no-wrap">
+            <div className="md:flex text-center mt-10 flex-wrap md:flex-no-wrap">
               <div className="mt-5 md:flex-1 md:mt-0">
-                <div className="h-48 overflow-hidden">
+                <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://www.microsoft.com/en-us/research/uploads/prod/2019/05/image-2019-05-01.jpg" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="https://scholar.google.de/citations?user=T4iBN5cAAAAJ&hl=en">Subhabrata (Subho) Mukherjee</a></div>
+                <div className="mt-3"><a className="text-blue-600" href="https://www.microsoft.com/en-us/research/people/submukhe/">Subhabrata (Subho) Mukherjee</a></div>
                 <div>Principal Researcher</div>
                 <div>Microsoft Research</div> 
               </div> 
               <div className="mt-5 md:flex-1 md:mt-0">
-                <div className="h-48 overflow-hidden">
-                  <img className="w-1/2 m-auto" src="https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=GjcORkUAAAAJ&citpid=8" />
+                <div className="h-40 overflow-hidden">
+                  <img className="w-1/2 m-auto" src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/lingfei.jpeg?raw=true" />
                 </div>
                 <div className="mt-3"><a className="text-blue-600" href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/">Lingfei Wu</a></div>
                 <div>Engineering Manager</div>
                 <div>Pinterest</div> 
               </div>
               <div className="mt-5 mx-auto md:flex-1 md:mt-0">
-                <div className="h-48 overflow-hidden">
-                  <img className="md:w-1/2 m-auto" src="https://lh4.googleusercontent.com/Ww0LIxFoi8J452NnMJQlZ9YINQaG3wgidb0WVgmISfQVOu5jqZ8HThO6RN9us9UiY0hO-eHy-HKwfR4oal_tGnVALyhMMDIRXp_zW_bIWQojDGvg=w1280" />
+                <div className="h-40 overflow-hidden">
+                  <img className="md:w-1/2 m-auto" src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/xiaoyinglong.jpeg?raw=true" />
                 </div>
                 <div className="mt-3"><a className="text-blue-600" href="https://sites.google.com/site/yinglongxia/">Yinglong Xia</a></div>
                 <div>Applied Research Scientist</div>
                 <div>Meta AI</div> 
               </div>
             </div>
+
+            <div className="md:flex text-center mt-10 flex-wrap md:flex-no-wrap">
+              <div className="mt-5 md:flex-1 md:mt-0">
+                <div className="h-40 overflow-hidden">
+                  <img className="w-1/2 m-auto" src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/jundong.png?raw=true" />
+                </div>
+                <div className="mt-3"><a className="text-blue-600" href="http://www.ece.virginia.edu/~jl6qk/">Jundong Li</a></div>
+                <div>Assistant Professor</div>
+                <div>University of Virginia</div> 
+              </div>
+              <div className="mt-5 md:flex-1 md:mt-0">
+                <div className="h-40 overflow-hidden">
+                  <img className="w-1/2 m-auto" src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/meng.jpeg?raw=true" />
+                </div>
+                <div className="mt-3"><a className="text-blue-600" href="http://www.meng-jiang.com/">Meng Jiang</a></div>
+                <div>Assistant professor </div>
+                <div>University of Notre Dame</div> 
+              </div>
+              <div className="mt-5 md:flex-1 md:mt-0">
+                <div className="h-40 overflow-hidden">
+                  <img className="w-1/2 m-auto" src="https://coe.northeastern.edu/wp-content/uploads/profiles/ece/wang-y.jpg" />
+                </div>
+                <div className="mt-3"><a className="text-blue-600" href="https://coe.northeastern.edu/people/wang-yanzhi/">Yanzhi Wang</a></div>
+                <div>Associate Professor</div>
+                <div>Northeastern University</div> 
+              </div>
+            </div>
           </div>
 
-          <div className="flex text-center mt-10 flex-wrap md:flex-no-wrap">
-            <div className="mt-5 md:flex-1 md:mt-0">
-              <div className="h-48 overflow-hidden">
-                <img className="w-1/2 m-auto" src="http://www.ece.virginia.edu/~jl6qk/jundong.png" />
-              </div>
-              <div className="mt-3"><a className="text-blue-600" href="http://www.ece.virginia.edu/~jl6qk/">Jundong Li</a></div>
-              <div>Assistant Professor</div>
-              <div>University of Virginia</div> 
-            </div>
-            <div className="mt-5 md:flex-1 md:mt-0">
-              <div className="h-48 overflow-hidden">
-                <img className="w-1/2 m-auto" src="http://www.meng-jiang.com/images/meng.jpg" />
-              </div>
-              <div className="mt-3"><a className="text-blue-600" href="http://www.meng-jiang.com/">Meng Jiang</a></div>
-              <div>Assistant professor </div>
-              <div>University of Notre Dame</div> 
-            </div>
-            <div className="mt-5 md:flex-1 md:mt-0">
-              <div className="h-48 overflow-hidden">
-                <img className="w-1/2 m-auto" src="https://coe.northeastern.edu/wp-content/uploads/profiles/ece/wang-y.jpg" />
-              </div>
-              <div className="mt-3"><a className="text-blue-600" href="https://coe.northeastern.edu/people/wang-yanzhi/">Yanzhi Wang</a></div>
-              <div>Associate Professor</div>
-              <div>Northeastern University</div> 
-            </div>
-          </div>
+          
 
           <div className="text-4xl mt-10">Publicity Chair</div>
             <div className="flex text-center mt-10 flex-wrap md:flex-no-wrap">
               <div className="mt-5 md:flex-1 md:mt-0">
-                <div className="h-48 overflow-hidden">
+                <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://github.com/mexiQQ/trust-ai-code/blob/main/src/images/jianwei.jpg?raw=true" />
                 </div>
                 <div className="mt-3"><a className="text-blue-600" href="https://jianwei.gatsbyjs.io/">Jianwei Li</a></div>
@@ -386,8 +398,8 @@ const IndexPage = () => {
           </div>
 
         <div className="text-center py-10 text-sm text-gray-300 bg-black">
-          <div>© 2022 NCSU DK Lab, All rights reserved</div>
-          <div>(Last update: Jan 23, 2023.)</div>
+          <div>© 2023 International Workshop on Resource-Efficient Learning for Knowledge Discovery, All rights reserved</div>
+          <div>(Last update: May 6, 2023.)</div>
         </div>
       </div>
     </main>
