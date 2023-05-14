@@ -139,7 +139,7 @@ const IndexPage = () => {
                     <div className="text-red-600">05/31/2023</div>
                     <div>06/30/2023</div>
                     <div>07/06/2023</div>
-                    <div>8/7/2023 (expected)</div>
+                    <div>08/07/2023 (expected)</div>
                   </div>
                 </div>
               </div>
@@ -153,7 +153,7 @@ const IndexPage = () => {
                     <div>Camera-Reday Deadline:</div>
                     <div className="text-base mb-3">07/06/2023</div>
                     <div>Workshop Date:</div>
-                    <div className="text-base mb-3">8/7/2023 (expected)</div>
+                    <div className="text-base mb-3">08/07/2023 (expected)</div>
                   </div>
                 </div>
               </div>
