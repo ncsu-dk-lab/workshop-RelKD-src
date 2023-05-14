@@ -111,7 +111,7 @@ const IndexPage = () => {
                 <ul className="list-disc pl-5">
                   <li className="py-1"><span className="font-bold">Data-efficient learning:</span> Self-supervised/unsupervised learning, semi/weakly-supervised learning, few-shot learning, and their applications to various data modalities (e.g., graph, user behavior, text, web, image, time series) and data science problems (e.g., social media, healthcare, recommendation, finance, multimedia)</li>
                   <li className="py-1"><span className="font-bold">Algorithm/model-efficient learning:</span> Neural network pruning, quantization, acceleration, sparse learning, neural network compression, knowledge distillation, neural architecture search, and their applications on various data science problems.</li>
-                  <li className="py-1"><span className="font-bold">System/hardware-efficient learning:</span> Neuralne twork-hardware co-design, real-time and energy-efficient learning system design, hardware accelerators for machine learning, and their applica- tions on various data science problems.</li>
+                  <li className="py-1"><span className="font-bold">System/hardware-efficient learning:</span> Neural network-hardware co-design, real-time and energy-efficient learning system design, hardware accelerators for machine learning, and their applica- tions on various data science problems.</li>
                   <li className="py-1"><span className="font-bold">Joint-efficient learning:</span> Any kind of joint-efficient learning algorithms/methods (e.g., data-model joint learning, algorithm-hardware joint learning) and their application on various data science problems.</li>
                 </ul>
               </div>
