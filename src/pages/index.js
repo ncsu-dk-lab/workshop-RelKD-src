@@ -110,8 +110,9 @@ const IndexPage = () => {
               <div className="mt-5">
                 <ul className="list-disc pl-5">
                   <li className="py-1"><span className="font-bold">Data-efficient learning:</span> Self-supervised/unsupervised learning, semi/weakly-supervised learning, few-shot learning, and their applications to various data modalities (e.g., graph, user behavior, text, web, image, time series) and data science problems (e.g., social media, healthcare, recommendation, finance, multimedia)</li>
-                  <li className="py-1"><span className="font-bold">Algorithm/model-efficient learning:</span> neural network pruning, quantization, acceleration, sparse learning, neural network compression, knowledge distillation, neural architecture search, and their applications on various data science problems.</li>
-                  <li className="py-1"><span className="font-bold">System/hardward-efficient learning:</span> Neuralnetwork-hardware co-design, real-time and energy-efficient learning system design, hardware accelerators for machine learning, and their applica- tions on various data science problems.</li>
+                  <li className="py-1"><span className="font-bold">Algorithm/model-efficient learning:</span> Neural network pruning, quantization, acceleration, sparse learning, neural network compression, knowledge distillation, neural architecture search, and their applications on various data science problems.</li>
+                  <li className="py-1"><span className="font-bold">System/hardware-efficient learning:</span> Neuralne twork-hardware co-design, real-time and energy-efficient learning system design, hardware accelerators for machine learning, and their applica- tions on various data science problems.</li>
+                  <li className="py-1"><span className="font-bold">Joint-efficient learning:</span> Any kind of joint-efficient learning algorithms/methods (e.g., data-model joint learning, algorithm-hardware joint learning) and their application on various data science problems.</li>
                 </ul>
               </div>
               <div className="mt-5 leading-8">
@@ -119,9 +120,10 @@ const IndexPage = () => {
               </div>
 
               <div className="mt-5 leading-8">
-              Submitted technical papers can be up to 4 pages long (excluding references and appendices). All papers must be submitted in PDF format using the KDD-23 author kit. Papers will be peer-reviewed and selected for spotlight and/or poster presentation. Submission site: 
+              Submitted technical papers should be at least 4 pages long. All papers must be submitted in PDF format using the KDD-23 author kit. Papers will be peer-reviewed and selected for spotlight and/or poster presentation. There will be no formal proceedings for the workshop papers, and we welcome any kinds of submissions, e.g., papers already accepted to or currently under review by other venues, ongoing studies, and so on. We will also select a few outstanding paper awards.
+              Submission site: 
               <div className="md:hidden"><a className="text-blue-600" href="/">click here</a></div>
-              <div className="hidden md:block"><a className="text-blue-600" href="/">TBD</a></div>
+              <div className="hidden md:block"><a className="text-blue-600" href="/">https://cmt3.research.microsoft.com/RelKD2023/Submission/Index</a></div>
               </div>
 
               <div className="text-3xl mt-5">Important Dates (GMT)</div>
@@ -134,10 +136,10 @@ const IndexPage = () => {
                     <div>Workshop Date</div>
                   </div>
                   <div className="flex-1">
-                    <div className="text-red-600">TBD</div>
-                    <div>TBD</div>
-                    <div>TBD</div>
-                    <div>TBD</div>
+                    <div className="text-red-600">05/31/2023</div>
+                    <div>06/30/2023</div>
+                    <div>07/06/2023</div>
+                    <div>8/7/2023 (expected)</div>
                   </div>
                 </div>
               </div>
@@ -145,29 +147,30 @@ const IndexPage = () => {
                 <div className="mt-5 leading-8 flex">
                   <div className="flex-1 text-xl">
                     <div>Paper Submission Deadline:</div>
-                    <div className="text-base mb-3 text-red-600">TBD</div>
+                    <div className="text-base mb-3 text-red-600">05/31/2023</div>
                     <div>Notification of Acceptance:</div>
-                    <div className="text-base mb-3">TBD</div>
+                    <div className="text-base mb-3">06/30/2023</div>
                     <div>Camera-Reday Deadline:</div>
-                    <div className="text-base mb-3">TBD</div>
+                    <div className="text-base mb-3">07/06/2023</div>
                     <div>Workshop Date:</div>
-                    <div className="text-base mb-3">TBD</div>
+                    <div className="text-base mb-3">8/7/2023 (expected)</div>
                   </div>
                 </div>
               </div>
 
-              <div className="text-3xl mt-10">Eligible Works</div>
-              <div className="mt-5 font-bold">This workshop is non-archival, and it will not have proceedings. We permit under-review or concurrent submissions. We will select Best Paper Awards.</div>
+              <div className="text-3xl mt-10">Contact us</div>
+              <div className="mt-5">For any questions, please reach out to the organization's email address: <a className="text-blue-600" href="mailto: relkdorg@googlegroups.com">relkdorg@googlegroups.com</a> or any organizer’s email address.</div>
+              
 
               {/* <div className="mt-5">Concretely, we ask members of the community to submit an abstract (250 words or fewer) describing the work and one or more of the following accompanying materials that describe the work in further detail. Higher quality accompanying materials improve the likelihood of acceptance and of spotlighting work with an oral presentation.</div> */}
 
-              <ul className="list-disc pl-5 mt-5">
+              {/* <ul className="list-disc pl-5 mt-5">
                 <li className="py-1">A workshop paper of approximately four pages in length.</li>
                 <li className="py-1">A position paper or survey paper with no page limit.</li>
                 <li className="py-1">A poster presenting results of work-in-progress.</li>
                 <li className="py-1">A published paper in the form that it was published.</li>
                 <li className="py-1">A link to a blog post (e.g., distill.pub, Medium) describing results.</li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
@@ -304,7 +307,8 @@ const IndexPage = () => {
                 <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://chuxuzhang.github.io/CXZ.jpeg" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="https://chuxuzhang.github.io/">Chuxu Zhang</a></div>
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://chuxuzhang.github.io/">Chuxu Zhang</a></div>
+                <div><a className="text-blue-600" href="mailto: chuxuzhang@brandeis.edu">chuxuzhang@brandeis.edu</a></div>
                 <div>Assistant Professor</div>
                 <div>Brandeis University</div>
               </div>
@@ -312,7 +316,8 @@ const IndexPage = () => {
                 <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://github.com/mexiQQ/trust-ai-code/blob/main/src/images/dongkuan.jpg?raw=true" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="https://dongkuanx27.github.io/">Dongkuan (DK) Xu</a></div>
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://dongkuanx27.github.io/">Dongkuan (DK) Xu</a></div>
+                <div><a className="text-blue-600" href="mailto: dxu27@ncsu.edu">dxu27@ncsu.edu</a></div>
                 <div>Assistant Professor</div>
                 <div>North Carolina State University</div>
               </div>
@@ -320,7 +325,8 @@ const IndexPage = () => {
                 <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/Mojan.jpeg?raw=true" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="https://sites.google.com/view/mojan-javaheripi/home">Mojan Javaheripi</a></div>
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://sites.google.com/view/mojan-javaheripi/home">Mojan Javaheripi</a></div>
+                <div><a className="text-blue-600" href="mailto: mojan@ucsd.edu">mojan@ucsd.edu</a></div>
                 <div>Senior Researcher</div>
                 <div>Microsoft Research</div>
               </div>
@@ -331,7 +337,8 @@ const IndexPage = () => {
                 <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://www.microsoft.com/en-us/research/uploads/prod/2019/05/image-2019-05-01.jpg" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="https://www.microsoft.com/en-us/research/people/submukhe/">Subhabrata (Subho) Mukherjee</a></div>
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://www.microsoft.com/en-us/research/people/submukhe/">Subhabrata (Subho) Mukherjee</a></div>
+                <div><a className="text-blue-600" href="mailto: subhabrata.mukherjee@microsoft.com">subhabrata.mukherjee@microsoft.com</a></div>
                 <div>Principal Researcher</div>
                 <div>Microsoft Research</div> 
               </div> 
@@ -339,7 +346,8 @@ const IndexPage = () => {
                 <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/lingfei.jpeg?raw=true" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/">Lingfei Wu</a></div>
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://sites.google.com/a/email.wm.edu/teddy-lfwu/">Lingfei Wu</a></div>
+                <div><a className="text-blue-600" href="mailto: lwu@pinterest.com">lwu@pinterest.com</a></div>
                 <div>Engineering Manager</div>
                 <div>Pinterest</div> 
               </div>
@@ -347,7 +355,8 @@ const IndexPage = () => {
                 <div className="h-40 overflow-hidden">
                   <img className="md:w-1/2 m-auto" src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/xiaoyinglong.jpeg?raw=true" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="https://sites.google.com/site/yinglongxia/">Yinglong Xia</a></div>
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://sites.google.com/site/yinglongxia/">Yinglong Xia</a></div>
+                <div><a className="text-blue-600" href="mailto: yinglong.xia.2010@ieee.org">yinglong.xia.2010@ieee.org</a></div>
                 <div>Applied Research Scientist</div>
                 <div>Meta AI</div> 
               </div>
@@ -358,7 +367,8 @@ const IndexPage = () => {
                 <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/jundong.png?raw=true" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="http://www.ece.virginia.edu/~jl6qk/">Jundong Li</a></div>
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="http://www.ece.virginia.edu/~jl6qk/">Jundong Li</a></div>
+                <div><a className="text-blue-600" href="mailto: jundong@virginia.edu">jundong@virginia.edu</a></div>
                 <div>Assistant Professor</div>
                 <div>University of Virginia</div> 
               </div>
@@ -366,7 +376,8 @@ const IndexPage = () => {
                 <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/meng.jpeg?raw=true" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="http://www.meng-jiang.com/">Meng Jiang</a></div>
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="http://www.meng-jiang.com/">Meng Jiang</a></div>
+                <div><a className="text-blue-600" href="mailto: mjiang2@nd.edu">mjiang2@nd.edu</a></div>
                 <div>Assistant professor </div>
                 <div>University of Notre Dame</div> 
               </div>
@@ -374,31 +385,38 @@ const IndexPage = () => {
                 <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://coe.northeastern.edu/wp-content/uploads/profiles/ece/wang-y.jpg" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="https://coe.northeastern.edu/people/wang-yanzhi/">Yanzhi Wang</a></div>
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://coe.northeastern.edu/people/wang-yanzhi/">Yanzhi Wang</a></div>
+                <div><a className="text-blue-600" href="mailto: yanz.wang@northeastern.edu">yanz.wang@northeastern.edu</a></div>
                 <div>Associate Professor</div>
                 <div>Northeastern University</div> 
               </div>
             </div>
           </div>
 
-          
-
           <div className="text-4xl mt-10">Publicity Chair</div>
-            <div className="flex text-center mt-10 flex-wrap md:flex-no-wrap">
+            <div className="md:flex text-center mt-10 flex-wrap md:flex-no-wrap">
               <div className="mt-5 md:flex-1 md:mt-0">
                 <div className="h-40 overflow-hidden">
                   <img className="w-1/2 m-auto" src="https://github.com/mexiQQ/trust-ai-code/blob/main/src/images/jianwei.jpg?raw=true" />
                 </div>
-                <div className="mt-3"><a className="text-blue-600" href="https://jianwei.gatsbyjs.io/">Jianwei Li</a></div>
-                <div>Moffett.AI</div>
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://jianwei.gatsbyjs.io/">Jianwei Li</a></div>
+                <div><a className="text-blue-600" href="mailto: jianwei.li@moffett.ai">jianwei.li@moffett.ai</a></div>
+                <div>Moffett.AI</div> 
               </div>
-              <div className="flex-1"></div>
+              <div className="mt-5 md:flex-1 md:mt-0">
+                <div className="h-40 overflow-hidden">
+                  <img className="h-40 w-1/2 m-auto object-cover object-center" src="https://aragakiyuiii.github.io/images/img.png" />
+                </div>
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://aragakiyuiii.github.io/">Chunhui Zhang</a></div>
+                <div><a className="text-blue-600" href="mailto: jianwei.li@moffett.ai">chunhuizhang@brandeis.edu</a></div>
+                <div>Brandeis University</div> 
+              </div>
               <div className="flex-1"></div>
             </div> 
           </div>
 
         <div className="text-center py-10 text-sm text-gray-300 bg-black">
-          <div>© 2023 International Workshop on Resource-Efficient Learning for Knowledge Discovery, All rights reserved</div>
+          <div>©2023 International Workshop on Resource-Efficient Learning for Knowledge Discovery, All rights reserved</div>
           <div>(Last update: May 6, 2023.)</div>
         </div>
       </div>
