@@ -408,7 +408,7 @@ const IndexPage = () => {
                   <img className="h-40 w-1/2 m-auto object-cover object-center" src="https://aragakiyuiii.github.io/images/img.png" />
                 </div>
                 <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://aragakiyuiii.github.io/">Chunhui Zhang</a></div>
-                <div><a className="text-blue-600" href="mailto: jianwei.li@moffett.ai">chunhuizhang@brandeis.edu</a></div>
+                <div><a className="text-blue-600" href="mailto: chunhuizhang@brandeis.edu">chunhuizhang@brandeis.edu</a></div>
                 <div>Brandeis University</div> 
               </div>
               <div className="flex-1"></div>
