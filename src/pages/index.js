@@ -123,7 +123,7 @@ const IndexPage = () => {
               Submitted technical papers should be at least 4 pages long. All papers must be submitted in PDF format using the KDD-23 author kit. Papers will be peer-reviewed and selected for spotlight and/or poster presentation. There will be no formal proceedings for the workshop papers, and we welcome any kinds of submissions, e.g., papers already accepted to or currently under review by other venues, ongoing studies, and so on. We will also select a few outstanding paper awards.
               Submission site: 
               <div className="md:hidden"><a className="text-blue-600" href="/">click here</a></div>
-              <div className="hidden md:block"><a className="text-blue-600" href="/">https://cmt3.research.microsoft.com/RelKD2023/Submission/Index</a></div>
+              <div className="hidden md:block"><a className="text-blue-600" href="https://cmt3.research.microsoft.com/RelKD2023/Submission/Index">https://cmt3.research.microsoft.com/RelKD2023/Submission/Index</a></div>
               </div>
 
               <div className="text-3xl mt-5">Important Dates (GMT)</div>
