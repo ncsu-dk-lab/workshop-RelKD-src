@@ -147,7 +147,7 @@ const IndexPage = () => {
                 <div className="mt-5 leading-8 flex">
                   <div className="flex-1 text-xl">
                     <div>Paper Submission Deadline:</div>
-                    <div className="text-base mb-3 text-red-600">05/31/2023</div>
+                    <div className="text-base mb-3 text-red-600">06/07/2023</div>
                     <div>Notification of Acceptance:</div>
                     <div className="text-base mb-3">06/30/2023</div>
                     <div>Camera-Reday Deadline:</div>
