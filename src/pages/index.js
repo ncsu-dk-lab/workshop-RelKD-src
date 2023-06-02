@@ -130,7 +130,7 @@ const IndexPage = () => {
               <div className="hidden md:block">
                 <div className="mt-5 leading-8 flex">
                   <div className="flex-1">
-                    <div>Paper Submission Deadline</div>
+                    <div>Paper Submission Deadline (Updated)</div>
                     <div>Notification of Acceptance</div>
                     <div>Camera-Reday Deadline</div>
                     <div>Workshop Date</div>
