@@ -137,7 +137,7 @@ const IndexPage = () => {
                   </div>
                   <div className="flex-1">
                     <div className="text-red-600">06/07/2023</div>
-                    <div>06/30/2023</div>
+                    <div>06/07/2023</div>
                     <div>07/06/2023</div>
                     <div>08/07/2023 (expected)</div>
                   </div>
