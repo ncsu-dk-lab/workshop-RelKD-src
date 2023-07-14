@@ -136,8 +136,8 @@ const IndexPage = () => {
                     <div>Workshop Date</div>
                   </div>
                   <div className="flex-1">
-                    <div className="text-red-600">06/07/2023</div>
-                    <div>06/07/2023</div>
+                    <div className="text-red-600">06/10/2023</div>
+                    <div>06/30/2023</div>
                     <div>07/06/2023</div>
                     <div>08/07/2023 (expected)</div>
                   </div>
@@ -147,7 +147,7 @@ const IndexPage = () => {
                 <div className="mt-5 leading-8 flex">
                   <div className="flex-1 text-xl">
                     <div>Paper Submission Deadline:</div>
-                    <div className="text-base mb-3 text-red-600">06/07/2023</div>
+                    <div className="text-base mb-3 text-red-600">06/10/2023</div>
                     <div>Notification of Acceptance:</div>
                     <div className="text-base mb-3">06/30/2023</div>
                     <div>Camera-Reday Deadline:</div>
@@ -183,57 +183,57 @@ const IndexPage = () => {
           <div className="overflow-scroll md:overflow-auto">
             <div className="mt-10" style={{width: "1000px"}}>
               <div className="flex border-b-2 pb-3">
-                <div className="w-100">08:50am-09:00am</div>
+                <div className="w-100">01:50pm-02:00pm</div>
                 <div className="flex-1 text-center">Opening remarks</div>
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 mt-3 pb-3">
-                <div className="w-100">09:00am-09:30am</div>
+                <div className="w-100">02:00pm-02:30pm</div>
                 <div className="flex-1 text-center">
-                  <div>Invited talk 1: 
-                    {/* <a className="text-blue-600" href="/">Jiawei Han</a> */}
+                  <div>Invited talk 1:&nbsp;
+                    <a className="text-blue-600" href="https://engineering.virginia.edu/faculty/aidong-zhang">Aidong Zhang</a>
                   </div>
-                  <div className="mt-5 text-gray-600">TBD</div>
+                  <div className="mt-5 text-gray-600">Semantic Meta-learning to Support Few Shot Learning</div>
                 </div>
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 mt-3 pb-3">
-                <div className="w-100">09:30am-10:00am</div>
+                <div className="w-100">02:30pm-03:00pm</div>
                 <div className="flex-1 text-center">
-                  <div>Invited talk 2: 
-                    {/* <a className="text-blue-600" href="/">Jie Tang</a> */}
+                  <div>Invited talk 2:&nbsp; 
+                    <a className="text-blue-600" href="https://vita-group.github.io/research.html">Zhangyang “Atlas” Wang</a>
                   </div>
-                  <div className="mt-5 text-gray-600">TBD</div>
+                  <div className="mt-5 text-gray-600">The Emergence of Essential Sparsity in Large Pre-trained Models:<br/>Perhaps a Better Lottery Ticket?</div>
                 </div>
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 mt-3 pb-3">
-                <div className="w-100">10:00am-10:30am</div>
+                <div className="w-100">03:00pm-03:30pm</div>
                 <div className="flex-1 text-center">Spotlight paper presentations</div>
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 mt-3 pb-3">
-                <div className="w-100">10:30am-11:00am</div>
+                <div className="w-100">03:30pm-04:00pm</div>
                 <div className="flex-1 text-center">Poster and social session (coffee break)</div>
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 mt-3 pb-3">
-                <div className="w-100">11:00am-11:30am</div>
+                <div className="w-100">04:00pm-04:30pm</div>
                 <div className="flex-1 text-center">
-                  <div>Invited talk 3: 
-                    {/* <a className="text-blue-600" href="/">Farinaz Koushanfar</a> */}
+                  <div>Invited talk 3:&nbsp; 
+                    <a className="text-blue-600" href="https://baharanm.github.io/">Baharan Mirzasoleiman</a>
                   </div>
-                  <div className="mt-5 text-gray-600">TBD</div> 
+                  <div className="mt-5 text-gray-600">Data-Efficient Deep Learning</div> 
                 </div> 
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 mt-3 pb-3">
-                <div className="w-100">11:30am-12:00am</div>
+                <div className="w-100">04:30pm-05:00pm</div>
                 <div className="flex-1 text-center">Panel discussion</div>
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 pb-3">
-                <div className="w-100">12:00pm-12:10pm</div>
+                <div className="w-100">05:00pm-05:10pm</div>
                 <div className="flex-1 text-center">Closing remarks</div>
                 <div className="w-100">Livestream</div>
               </div>
@@ -244,37 +244,39 @@ const IndexPage = () => {
         <div id="speakers" style={{"background":"#f5f5f5"}}>
           <div className="max-w-screen-md max-w-screen-lg mx-auto px-2 py-10">
             <div className="text-4xl">Keynote Speakers</div>
-            <div className="text-3xl text-center my-40">To Be Confirmed</div>
-            <div className="hidden">
+            {/* <div className="text-3xl text-center my-40">To Be Confirmed</div> */}
+            <div className="display">
               <div className="w-full mt-10">
                 <div className="w-full md:h-96 md:flex">
                   <div className="md:flex-1">
                     <img className="w-48 h-96 object-cover mx-auto md:ml-0" 
                       style={{"width": "75%"}} 
-                      src="https://cs.illinois.edu/_sitemanager/viewphoto.aspx?id=13293&s=450"/>
+                      src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/zhangaidong.jpeg?raw=true"/>
                   </div>
                   <div className="md:flex-1 md:text-left pt-10 text-center">
-                    <div className="text-3xl">Jiawei Han</div>
-                    <div className="text-2xl mt-5">University of Illinois at Urbana-Champaign</div>
-                    <div className="text-2xl">Michael Aiken Chair Professor at Department of Computer Science</div>
-                    <div className="mt-2"><a className="text-xl underline" href="http://hanj.cs.illinois.edu/">Personal Website</a></div>
-                    <div className="text-2xl mt-10"><span className="text-blue-600">Talk Title:</span> TBD </div>
+                    <div className="text-3xl">Aidong Zhang</div>
+                    <div className="text-2xl mt-5">University of Virginia</div>
+                    <div className="text-2xl">Professor at Department of Computer Science</div>
+                    <div className="mt-2"><a className="text-xl underline" href="https://engineering.virginia.edu/faculty/aidong-zhang
+">Personal Website</a></div>
+                    <div className="text-2xl mt-10"><span className="text-blue-600">Talk Title:</span> Semantic Meta-learning to Support Few Shot Learning </div>
                   </div>
                 </div>
               </div>
               <div className="w-full mt-10">
                 <div className="w-full md:h-96 md:flex">
                   <div className="md:flex-1 md:text-left pt-10 text-center">
-                    <div className="text-3xl">Jie Tang</div>
-                    <div className="text-2xl mt-5">Tsinghua University</div>
-                    <div className="text-2xl">Full Professor at Department of Computer Science</div>
-                    <div className="mt-2"><a className="text-xl underline" href="http://keg.cs.tsinghua.edu.cn/jietang/">Personal Website</a></div>
-                    <div className="text-2xl mt-10"><span className="text-blue-600">Talk Title:</span> TBD </div>
+                    <div className="text-3xl">Zhangyang “Atlas” Wang</div>
+                    <div className="text-2xl mt-5">University of Texas at Austin</div>
+                    <div className="text-2xl">Assistant Professor at Department of Electrical and Computer Engineering</div>
+                    <div className="mt-2"><a className="text-xl underline" href="https://vita-group.github.io/research.html
+">Personal Website</a></div>
+                    <div className="text-2xl mt-10"><span className="text-blue-600">Talk Title:</span> The Emergence of Essential Sparsity in Large Pre-trained Models: Perhaps a Better Lottery Ticket? </div>
                   </div>
-                  <div className="md:flex-1">
-                    <img className="w-48 h-96 object-cover mx-auto md:ml-0" 
+                  <div className="md:flex-1 text-right">
+                    <img className="w-48 h-96 object-cover mx-auto md:mr-0" 
                       style={{"width": "75%"}} 
-                      src="http://keg.cs.tsinghua.edu.cn/jietang/pics/Jie-0.jpg"/>
+                      src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/atlaswang.jpeg?raw=true"/>
                   </div>
                 </div>
               </div>
@@ -283,14 +285,14 @@ const IndexPage = () => {
                   <div className="md:flex-1">
                     <img className="w-48 h-96 object-cover mx-auto md:ml-0 object-left" 
                       style={{"width": "75%"}} 
-                      src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/Farinaz-Koushanfar.png?raw=true"/>
+                      src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/baharan.jpeg?raw=true"/>
                   </div>
                   <div className="md:flex-1 md:text-left pt-10 text-center mb-20 md:mb-0">
                     <div className="text-3xl">Farinaz Koushanfar</div>
-                    <div className="text-2xl mt-5">University of California San Diego</div>
-                    <div className="text-2xl">Full Professor at Department of Electrical and Computer Engineering.</div>
-                    <div className="mt-2"><a className="text-xl underline" href="https://farinaz.eng.ucsd.edu/home">Personal Website</a></div>
-                    <div className="text-2xl mt-10"><span className="text-blue-600">Talk Title:</span> TBD </div>
+                    <div className="text-2xl mt-5">University of California, Los Angeles</div>
+                    <div className="text-2xl">Assistant Professor at Department of Computer Science</div>
+                    <div className="mt-2"><a className="text-xl underline" href="https://baharanm.github.io/">Personal Website</a></div>
+                    <div className="text-2xl mt-10"><span className="text-blue-600">Talk Title:</span> Data-Efficient Deep Learning </div>
                   </div> 
                 </div>
               </div>
