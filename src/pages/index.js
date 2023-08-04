@@ -183,12 +183,12 @@ const IndexPage = () => {
           <div className="overflow-scroll md:overflow-auto">
             <div className="mt-10" style={{width: "1000px"}}>
               <div className="flex border-b-2 pb-3">
-                <div className="w-100">01:50pm-02:00pm</div>
+                <div className="w-100">01:00pm-01:10pm</div>
                 <div className="flex-1 text-center">Opening remarks</div>
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 mt-3 pb-3">
-                <div className="w-100">02:00pm-02:30pm</div>
+                <div className="w-100">01:10pm-01:40pm</div>
                 <div className="flex-1 text-center">
                   <div>Invited talk 1:&nbsp;
                     <a className="text-blue-600" href="https://engineering.virginia.edu/faculty/aidong-zhang">Aidong Zhang</a>
@@ -198,7 +198,7 @@ const IndexPage = () => {
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 mt-3 pb-3">
-                <div className="w-100">02:30pm-03:00pm</div>
+                <div className="w-100">01:40pm-02:10pm</div>
                 <div className="flex-1 text-center">
                   <div>Invited talk 2:&nbsp; 
                     <a className="text-blue-600" href="https://vita-group.github.io/research.html">Zhangyang “Atlas” Wang</a>
@@ -208,17 +208,17 @@ const IndexPage = () => {
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 mt-3 pb-3">
-                <div className="w-100">03:00pm-03:30pm</div>
+                <div className="w-100">02:10pm-02:40pm</div>
                 <div className="flex-1 text-center">Spotlight paper presentations</div>
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 mt-3 pb-3">
-                <div className="w-100">03:30pm-04:00pm</div>
+                <div className="w-100">02:40pm-03:10pm</div>
                 <div className="flex-1 text-center">Poster and social session (coffee break)</div>
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 mt-3 pb-3">
-                <div className="w-100">04:00pm-04:30pm</div>
+                <div className="w-100">03:10pm-03:40pm</div>
                 <div className="flex-1 text-center">
                   <div>Invited talk 3:&nbsp; 
                     <a className="text-blue-600" href="https://baharanm.github.io/">Baharan Mirzasoleiman</a>
@@ -228,12 +228,31 @@ const IndexPage = () => {
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 mt-3 pb-3">
-                <div className="w-100">04:30pm-05:00pm</div>
-                <div className="flex-1 text-center">Panel discussion</div>
+                <div className="w-100">03:40pm-04:10pm</div>
+                <div className="flex-1 text-center">
+                  <div>Panel discussion:</div>
+                  <div className="flex mt-5">
+                    <div className="flex-auto w-20 text-right">
+                      Guests:
+                    </div>
+                    <div className="flex-auto text-left">
+                      <div className="pl-5">
+                        <div>
+                          <a href="https://sites.pitt.edu/~xiaowei/index.html" className="text-blue-600">Xiaowei Jia</a>
+                          <a href="https://fenglong-ma.github.io/"className="text-blue-600 ml-5">Fenglong Ma</a>
+                        </div>
+                        <div>
+                          <a href="https://sites.google.com/view/mojan-javaheripi/home" className="text-blue-600">Mojan Javaheripi</a>
+                          <a href="https://kaize0409.github.io/" className="text-blue-600 ml-5">Kaize Ding</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div className="w-100">Livestream</div>
               </div>
               <div className="flex border-b-2 pb-3">
-                <div className="w-100">05:00pm-05:10pm</div>
+                <div className="w-100">04:10pm-04:20pm</div>
                 <div className="flex-1 text-center">Closing remarks</div>
                 <div className="w-100">Livestream</div>
               </div>
@@ -288,7 +307,7 @@ const IndexPage = () => {
                       src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/baharan.jpeg?raw=true"/>
                   </div>
                   <div className="md:flex-1 md:text-left pt-10 text-center mb-20 md:mb-0">
-                    <div className="text-3xl">Farinaz Koushanfar</div>
+                    <div className="text-3xl">Baharan Mirzasoleiman</div>
                     <div className="text-2xl mt-5">University of California, Los Angeles</div>
                     <div className="text-2xl">Assistant Professor at Department of Computer Science</div>
                     <div className="mt-2"><a className="text-xl underline" href="https://baharanm.github.io/">Personal Website</a></div>
@@ -337,12 +356,12 @@ const IndexPage = () => {
             <div className="md:flex text-center mt-10 flex-wrap md:flex-no-wrap">
               <div className="mt-5 md:flex-1 md:mt-0">
                 <div className="h-40 overflow-hidden">
-                  <img className="w-1/2 m-auto" src="https://www.microsoft.com/en-us/research/uploads/prod/2019/05/image-2019-05-01.jpg" />
+                  <img className="w-1/2 m-auto" src="https://images.squarespace-cdn.com/content/v1/644f377bcdcff95fb90fd4a5/abb6f26d-4f3a-40fd-a6da-f4beafd375e1/Subho.png" />
                 </div>
-                <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://www.microsoft.com/en-us/research/people/submukhe/">Subhabrata (Subho) Mukherjee</a></div>
-                <div><a className="text-blue-600" href="mailto: subhabrata.mukherjee@microsoft.com">subhabrata.mukherjee@microsoft.com</a></div>
-                <div>Principal Researcher</div>
-                <div>Microsoft Research</div> 
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://www.hippocraticai.com/team">Subhabrata (Subho) Mukherjee</a></div>
+                <div><a className="text-blue-600" href="mailto: subhabrata.mukherjee.ju@gmail.com">subhabrata.mukherjee.ju@gmail.com</a></div>
+                <div>Chief Science Officer</div>
+                <div>Hippocratic AI</div> 
               </div> 
               <div className="mt-5 md:flex-1 md:mt-0">
                 <div className="h-40 overflow-hidden">
@@ -402,18 +421,26 @@ const IndexPage = () => {
                   <img className="w-1/2 m-auto" src="https://github.com/mexiQQ/trust-ai-code/blob/main/src/images/jianwei.jpg?raw=true" />
                 </div>
                 <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://jianwei.gatsbyjs.io/">Jianwei Li</a></div>
-                <div><a className="text-blue-600" href="mailto: jianwei.li@moffett.ai">jianwei.li@moffett.ai</a></div>
-                <div>Moffett.AI</div> 
+                <div><a className="text-blue-600" href="mailto: jianwei.li@moffett.ai">jli265@ncsu.edu</a></div>
+                <div>North Carolina State University</div> 
               </div>
-              <div className="mt-5 md:flex-1 md:mt-0">
+              {/* <div className="mt-5 md:flex-1 md:mt-0">
                 <div className="h-40 overflow-hidden">
-                  <img className="h-40 w-1/2 m-auto object-cover object-center" src="https://aragakiyuiii.github.io/images/img.png" />
+                  <img className="h-40 w-1/2 m-auto object-cover object-center" src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/chuihui.jpeg?raw=true" />
                 </div>
                 <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://aragakiyuiii.github.io/">Chunhui Zhang</a></div>
                 <div><a className="text-blue-600" href="mailto: chunhuizhang@brandeis.edu">chunhuizhang@brandeis.edu</a></div>
                 <div>Brandeis University</div> 
+              </div> */}
+              <div className="mt-5 md:flex-1 md:mt-0">
+                <div className="h-40 overflow-hidden">
+                  <img className="h-40 w-1/2 m-auto object-cover object-center" src="https://github.com/ncsu-dk-lab/workshops/blob/main/reources/imgs/suiyang.jpg?raw=true" />
+                </div>
+                <div className="mt-3 text-2xl"><a className="text-blue-600" href="https://eclipsess.github.io/yangsui.github.io/">Yang Sui</a></div>
+                <div><a className="text-blue-600" href="mailto: yang.sui@rutgers.edu">yang.sui@rutgers.edu</a></div>
+                <div>Rutgers University</div> 
               </div>
-              <div className="flex-1"></div>
+              <div className="mt-5 md:flex-1 md:mt-0"></div>
             </div> 
           </div>
 
